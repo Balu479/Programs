@@ -16,7 +16,7 @@ class Solution {
                                    .average().getAsDouble();
        averages.add(avg);
     }
-       System.out.println();
+    System.out.println(averages);
     Collections.sort(averages);
     System.out.println("Best Average score:"+averages.get(averages.size()-1));
   }
